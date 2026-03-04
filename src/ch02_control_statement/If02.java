@@ -7,7 +7,7 @@ public class If02 {
             System.out.println("하하하");
         }
 
-        else { //홀수이면
+        else { //홀수이면 호호호
             System.out.println("호호호 ");
         }
     }
