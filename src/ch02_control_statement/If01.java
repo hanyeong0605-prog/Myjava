@@ -3,7 +3,7 @@ package ch02_control_statement;
 public class If01 {
     static void main() {
         //su가 짝수이면 출력해 주세요.
-        int su = 5 ;
+        int su = 5  ;
         if(su % 2 == 0) {
             System.out.println(su+"는 짝수 ");
         }
