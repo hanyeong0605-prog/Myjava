@@ -4,7 +4,7 @@ public class If03 {
     static void main() {
         int jumsu = 59 ;
 
-        // 학점 매기기.
+        // 학점 매기기..
         if (jumsu >= 90) {
             System.out.println("대학원 대학원 대학원 대학원 대학원 ");
         }
