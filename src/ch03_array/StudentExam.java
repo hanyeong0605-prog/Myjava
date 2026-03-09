@@ -11,7 +11,7 @@ public class StudentExam {
             double average = 0;
 
         System.out.print("이름입력 : ");
-        String name = scan.next();   /// next로 하던가 nextLine으로 가능.
+        String name = scan.nextLine();   /// next로 하던가 nextLine으로 가능.
 //****************************************//
 
         int[] jumsu = new int[3];
