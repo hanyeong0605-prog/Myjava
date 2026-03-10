@@ -11,31 +11,25 @@ public class Product02 {
     private String name; // 상품명
     private int price; // 단가 >> private으로 선언해서 참조 불가.
     String inputdate; // 입고 일자
+//------------------------------------------------//
+
+
 
     public String getName () {
         return name;
     }
-
-    public void setPrice(int price) {  // int price는 매개변수.
-        // 매개변수는 지역 변수의 부분집합입니다.
-
-        this.price = price;
-
-    }
-
-
     public int getPrice() {  //앞에 접근 지정자를 일반적으로 붙임.
         return price;
     }  // 이 형태가 getter메소드
 
     public void setName(String name) {
-
-
         this.name = name;  //shin.name이 되는 격
-
+    }
+    public void setPrice(int price) {  // int price는 매개변수.
+        // 매개변수는 지역 변수의 부분집합입니다.
+        this.price = price;
 
     }
-
 }
 
 

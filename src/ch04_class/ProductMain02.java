@@ -19,9 +19,11 @@ public class ProductMain02 {
 
         System.out.println(shin.brand);
 
-        shin.brand = "nongsim";
+        shin.brand = "nongsim"; // shin.brand와
 
-        System.out.println(blackbean.brand);
+        System.out.println(blackbean.brand); // blackbeam.brand
+        //둘 다 static으로 인해 모든 상품은 동일한 브랜드를 가진다는 가정이 됨.
+        // 똑같이 nongsim으로 출력됨. static을 쓰면 new을 새로 해줘도 메모리에 하나만 저장됨.
 
 
 

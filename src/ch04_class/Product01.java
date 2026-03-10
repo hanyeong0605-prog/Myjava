@@ -13,7 +13,8 @@ public class Product01 {  // 단계 클래스 정의.
     //매개변수는 메소드 외부에서 넣어 주는 값입니다.
     // 반환타입 메소드 이름(매개변수리스트){...}
     //메소드는 행위 동작 함수 기능
-    int plus5(int x){ // x는 매개변수. Plus5는 메소드명. int 는 반환타입
+    int plus5(int x){
+        // x는 매개변수. Plus5는 메소드명. int 는 반환타입
        return x + 5;
     }
 
