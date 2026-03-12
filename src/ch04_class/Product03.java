@@ -1,7 +1,7 @@
 package ch04_class;
 
 public class Product03 {
-    private String name ; // null 기본값
+    public String name ; // null 기본값
     //상품의 단가가 입력되지 않으면 500원 이라고 가정합니다.
     private int price = 500; // 0 기본값
     private String inputdate; // null 기본값

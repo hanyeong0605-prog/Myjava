@@ -22,5 +22,16 @@ public class Array01 {
 
             System.out.println(_bts[i]);
         }
+        //----------------------------------------------------//
+
+        // 선입 선출 (FIFO)
+        System.out.println("향상된 for 구문");
+
+        //  for(타입 단수이름 : 복수이름) {   <<<< 향상 for?라고 함.
+        for (String item : bts) {
+            System.out.println(item);
+
+
+        }
     }
 }

@@ -12,6 +12,8 @@ public class MyArr01 {
 
         int[] arr = new int[3]; // arr은 배열 이름입니다. 배열은 0부터 시작.
 
+        //확장 for문
+
         arr[0] = x - y + 6;  // 0번 주소에 4 저장.
         arr[2] = arr[0] + 3; // 2번 주소에 7 저장.
         arr[1] = arr[0] + arr[2];
@@ -19,15 +21,22 @@ public class MyArr01 {
         for (int i = 0; i < arr.length ; i++) {
             System.out.println(arr[i]);
         }
+
+        for (int result : arr)
+            System.out.println(result);
+        System.out.println("-----------------------------------------------------");
+
+
         //방법02: 초기화 기법.
         int[] brr = {15, 30, 22};  // 배열 개수 3개
         for (int i = 0; i < brr.length ; i++) {
 
             System.out.println(brr[i]);
 
-
-
         }
+        for (int result2 : brr)
+            System.out.println(result2);
+        System.out.println("-----------------------------------------------------");
 
 
 
